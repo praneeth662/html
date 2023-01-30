@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1 style="color:orange;text-align:center;font-size:20px">Book a call</h1>
+<p style="text-align:center;">Book a call slot and our representative will call you within 1hr of selected time </p>
+<form action="/action_page.php">
+    <label for="name">Name:</label><br>
+    <input type="text" id="name" name="name" size="50"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="phone">Phone:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-6789" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br><br>
+    <label for="month">Time for Call:</label><br>
+    <input type="datetime-local" id="month" name="month"><br>
+<p style="background-color:orange;text-align:center;font-size:15px">GET A CALL</p>    
+</form>
+</body>
